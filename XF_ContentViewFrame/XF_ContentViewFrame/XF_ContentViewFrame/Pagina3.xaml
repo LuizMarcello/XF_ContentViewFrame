@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XF_ContentViewFrame.Pagina3"
+             Title="Página 3">
+    
+    <StackLayout VerticalOptions="FillAndExpand">
+
+        <Frame Padding="50">
+            <Image Source="http://www.macoratti.net/maco1b.jpg"/>
+        </Frame>
+
+        <Label Text="Usuario" HorizontalOptions="Start"/>
+        <Entry Text="" Placeholder="Nome do usuário" HorizontalOptions="FillAndExpand"/>
+        <Label Text="Senha" HorizontalOptions="Start"/>
+        <Entry Text="" Placeholder="Senha" HorizontalOptions="FillAndExpand"/>
+        <Button Text="Log In" HorizontalOptions="CenterAndExpand"/>
+        
+    </StackLayout>
+    
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XF_ContentViewFrame.Pagina1"
+             xmlns:local="clr-namespace:XF_ContentViewFrame"
+             BackgroundColor="White"
+             Title="Página 1">
+
+    <StackLayout VerticalOptions="Center" >
+
+        <Frame>
+            <Label Text="Bem-Vindo" FontAttributes="Bold" FontSize="Large" TextColor="Blue" HorizontalOptions="Center"/>
+        </Frame>
+
+        <Label Text="Faça o login para acessar a loja" HorizontalOptions="Center"/>
+
+        <Frame HasShadow="True">
+            <Button Text="Acessar" HorizontalOptions="Center" TextColor="Navy" Clicked="Button_Clicked"/>
+        </Frame>
+
+        <ContentView>
+            <Label Text="Bem-Vindo" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center"/>
+        </ContentView>
+
+    </StackLayout>
+
+</ContentPage>
+   
+
+            
